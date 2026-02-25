@@ -3,9 +3,6 @@
 <div align="center">
   **Smart Contract Development for Stacks Blockchain**  
   Open-source tools to make building on Stacks simple and accessible  
-  [![Website](https://img.shields.io/badge/Website-Coming%20Soon-blue?style=flat-square)](#)  
-  [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE.md)  
-  [![Status](https://img.shields.io/badge/Status-MVP%20Development-orange?style=flat-square)](#)  
 </div>
 
 ---
