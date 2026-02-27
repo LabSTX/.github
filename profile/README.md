@@ -1,150 +1,204 @@
-<div align="center"> <strong>Browser-Based Smart Contract IDE for Stacks</strong><br/> Build, compile, deploy, and interact with Clarity contracts directly from your browser. </div>
-🚀 What is LabSTX?
+# LabSTX
 
-LabSTX is a browser-based smart contract development environment built specifically for the Stacks blockchain.
+<div align="center">
+  <strong>Browser-Based Smart Contract IDE for Stacks</strong><br/>
+  Zero-setup Clarity development for the Stacks ecosystem.
+</div>
 
-It enables developers to:
+---
 
-Write Clarity smart contracts
+## 🚀 Overview
 
-Compile contracts
+LabSTX is an open-source, browser-based development environment for writing, compiling, deploying, and interacting with Clarity smart contracts on the Stacks blockchain.
 
-Deploy to Stacks testnet and mainnet
+The goal of LabSTX is to reduce onboarding friction for developers by providing a seamless, zero-installation IDE experience similar to Remix (Ethereum), but built specifically for Clarity and Stacks.
 
-Interact with contracts via an integrated ABI panel
-
-Debug and test contract workflows
-
-LabSTX is designed to reduce onboarding friction and provide a zero-setup development experience for Clarity developers.
-
-Live Demo:
+Live Application:  
 https://lab-stx.vercel.app/
 
-🎯 Project Status
+Public Repository:  
+https://github.com/LabSTX/LabSTX_IDE
 
-LabSTX is an actively maintained, founder-led open-source project.
+---
 
-The current focus is on stabilizing and productionizing core IDE functionality through the following milestone phases:
+# 📌 Development Roadmap & Milestones
 
-Phase 1 – Core Stabilization
+LabSTX development is structured into three clearly defined phases under a $9,000 USD Getting Started grant.
 
-Reliable contract compilation
+Total Grant Requested: **$9,000 USD**
 
-Improved deployment flow
+All milestones are publicly verifiable through GitHub commits, tagged releases, demo videos, and live deployments.
 
-Structured error handling
+---
 
-Phase 2 – ABI & Debugging Enhancements
+## 🧱 Phase 1 – Core Stabilization  
+**Budget Allocation: 25% — $2,250**  
+**Target Completion: Week 3**
 
-Full ABI inspector panel
+### Objective
+Improve reliability and stability of the core IDE workflow.
 
-Read/write contract interaction
+### Deliverables
 
-Enhanced debugging output
+- Refined Clarity compilation pipeline
+- Improved deployment flow for testnet and mainnet
+- Structured and user-friendly error handling
+- Better transaction feedback UI
+- Internal refactoring for maintainability
 
-Phase 3 – Documentation & Developer Education
+### Acceptance Criteria
 
-Complete documentation site
+- Contracts compile consistently across common test cases
+- Deployment transactions complete successfully
+- Errors are structured and readable
+- Deployment feedback clearly reflects transaction status
 
-Step-by-step tutorials
+### Evidence of Completion
 
-Onboarding guides
+- GitHub commits showing refactoring and feature updates
+- Tagged milestone release
+- Demo video of compilation and deployment flow
+- Updated live IDE reflecting improvements
 
-Public roadmap
+---
 
-All milestones are publicly verifiable via GitHub commits and tagged releases.
+## 🔍 Phase 2 – ABI & Debugging Enhancements  
+**Budget Allocation: 35% — $3,150**  
+**Target Completion: Week 6**
 
-🛠 Current Features
+### Objective
+Enable seamless smart contract interaction and improve debugging visibility.
 
-Browser-based Clarity code editor
+### Deliverables
 
-Syntax highlighting
+- Full ABI inspector panel
+- Read/write contract function interaction UI
+- Clear transaction execution logs
+- Enhanced debugging output
+- Improved contract state visibility
 
-Contract compilation
+### Acceptance Criteria
 
-Contract deployment
+- Users can call public read functions directly from the IDE
+- Users can submit write transactions from the interface
+- Execution results and errors are clearly displayed
+- Debug logs reflect contract execution behavior
 
-Initial contract interaction support
+### Evidence of Completion
 
-Live hosted IDE
+- GitHub commits and tagged release
+- Demo video demonstrating ABI interaction
+- Live IDE update with full ABI panel
+- Documentation explaining interaction workflow
 
-This project does not custody funds or handle user assets. It operates purely as a development tool.
+---
 
-🏗 Tech Stack
+## 📚 Phase 3 – Documentation & Developer Education  
+**Budget Allocation: 40% — $3,600**  
+**Target Completion: Week 9–10**
 
-Next.js
+### Objective
+Provide comprehensive developer documentation and onboarding materials.
 
-React
+### Deliverables
 
-TypeScript
+- Complete documentation site
+- Step-by-step tutorials:
+  - Writing a contract
+  - Compiling a contract
+  - Deploying to testnet
+  - Interacting with a deployed contract
+- Onboarding guide for new Clarity developers
+- Public roadmap page
 
-Tailwind CSS
+### Acceptance Criteria
 
-Stacks blockchain
+- Documentation site publicly accessible
+- Tutorials enable full end-to-end contract workflow
+- Roadmap clearly outlines current scope and future direction
 
-Clarity smart contracts
+### Evidence of Completion
 
-Deployment:
+- Documentation site link
+- Tutorial walkthrough videos
+- Public roadmap page
+- GitHub updates reflecting documentation additions
 
-Vercel
+---
 
-GitHub
+# 💰 Budget Breakdown Summary
 
-📌 Scope of the Project
+Total Requested: **$9,000 USD**
 
-LabSTX focuses strictly on:
+| Phase | Focus Area | Percentage | Amount (USD) |
+|-------|------------|------------|--------------|
+| Phase 1 | Core Stabilization | 25% | $2,250 |
+| Phase 2 | ABI & Debugging Enhancements | 35% | $3,150 |
+| Phase 3 | Documentation & Education | 40% | $3,600 |
 
-Core IDE functionality (compile, deploy, interact, debug)
+Budget supports development time, documentation creation, testing, and hosting infrastructure.
 
-Reliability and stability improvements
+---
 
-Developer documentation and tutorials
+# 🛠 Current Implemented Features
 
-Open-source transparency
+LabSTX already includes:
 
-The project does not currently include:
+- Browser-based Clarity code editor
+- Syntax highlighting
+- Contract compilation
+- Contract deployment
+- Initial contract interaction panel
+- Live hosted version
 
-CLI tools
+The current focus is on improving stability, expanding ABI interaction, and formalizing documentation.
 
-Mobile applications
+---
 
-Token integrations
+# 🔐 Security & Scope
 
-Complex plugin systems
+LabSTX:
 
-Custodial features
+- Does not custody user funds
+- Does not store private keys
+- Does not manage user assets
+- Operates purely as a development interface
 
-Future expansion may be explored after core stabilization and documentation are complete.
+This reduces security and regulatory risk.
 
-🤝 Contributing
+---
+
+# 🎯 Ecosystem Goals
+
+By the end of the grant period, LabSTX aims to achieve:
+
+- 500+ monthly active sessions
+- 1,000+ contract compilations per month
+- 200+ deployments (testnet + mainnet)
+- At least 3 community contributors
+
+The long-term goal is to strengthen Stacks developer tooling and reduce onboarding friction for Clarity developers.
+
+---
+
+# 👨🏽‍💻 Maintainer
+
+Founder & Lead Developer  
+Oyewale Prudence
+
+LabSTX has been independently developed and maintained for over six months as part of a long-term commitment to improving developer infrastructure within the Stacks ecosystem.
+
+---
+
+# 🤝 Contributing
 
 Contributions are welcome.
 
 Ways to contribute:
 
-Report bugs
+- Report bugs
+- Improve documentation
+- Submit pull requests
+- Suggest feature improvements
 
-Suggest improvements
-
-Improve documentation
-
-Submit pull requests
-
-Before contributing, please open an issue to discuss proposed changes.
-
-📊 Transparency
-
-Public Repository: https://github.com/LabSTX/LabSTX_IDE
-
-Live Application: https://lab-stx.vercel.app/
-
-All progress is tracked publicly through commits, milestone updates, and documentation releases.
-
-👨🏽‍💻 Maintainer
-
-Founder & Lead Developer:
-Oyewale Prudence
-
-LabSTX has been independently developed and maintained for over six months as part of a long-term commitment to improving Stacks developer tooling.
-
-<div align="center"> Building better infrastructure for Clarity developers on Stacks. </div>
+Please open an issue before submitting large changes.
