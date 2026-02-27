@@ -1,106 +1,151 @@
-# LabSTX
+LabSTX
+<div align="center"> <strong>Browser-Based Smart Contract IDE for Stacks</strong><br/> Build, compile, deploy, and interact with Clarity contracts directly from your browser. </div>
+🚀 What is LabSTX?
 
-<div align="center">
-  **Smart Contract Development for Stacks Blockchain**  
-  Open-source tools to make building on Stacks simple and accessible  
-</div>
+LabSTX is a browser-based smart contract development environment built specifically for the Stacks blockchain.
 
----
+It enables developers to:
 
-## 🚀 What is LabSTX?
+Write Clarity smart contracts
 
-LabSTX is an open-source platform to **build, test, and deploy Clarity smart contracts** on the Stacks blockchain.  
-Currently in **MVP development** with a planned launch in **Q2 2026**.
+Compile contracts
 
----
+Deploy to Stacks testnet and mainnet
 
-## 🛠️ Platform Features
+Interact with contracts via an integrated ABI panel
 
-- **Smart Contract IDE** with full Clarity support  
-- **Project templates & examples**  
-- **Testing environment**  
-- **Community feedback system**  
+Debug and test contract workflows
 
-**Status**: 🚧 In Development (Q2 2026 Launch)
+LabSTX is designed to reduce onboarding friction and provide a zero-setup development experience for Clarity developers.
 
----
+Live Demo:
+https://lab-stx.vercel.app/
 
-## 🎯 MVP Goals
+🎯 Project Status
 
-- **Simple & Accessible**: Easy-to-use for all developers  
-- **Open Source**: Community-driven from day one  
-- **Developer-Focused**: Built by developers, for developers  
-- **Stacks Native**: Fully integrated with Stacks ecosystem  
+LabSTX is an actively maintained, founder-led open-source project.
 
----
+The current focus is on stabilizing and productionizing core IDE functionality through the following milestone phases:
 
-## 🏗️ Tech Stack
+Phase 1 – Core Stabilization
 
-- **Frontend**: Next.js, React, TypeScript, Tailwind CSS  
-- **Blockchain**: Stacks, Clarity smart contracts  
-- **Deployment**: Vercel, GitHub Actions  
+Reliable contract compilation
 
----
+Improved deployment flow
 
-## 📅 Roadmap
+Structured error handling
 
-**Q1 2026 (Current)**  
-- Project setup & architecture ✅  
-- Landing page & branding 🚧  
-- Core IDE development 🚧  
-- Community building 🚧  
+Phase 2 – ABI & Debugging Enhancements
 
-**Q2 2026 (MVP Launch)**  
-- Public beta release 🎯  
-- Basic smart contract IDE 🎯  
-- Developer onboarding 🎯  
-- Collect community feedback 🎯  
+Full ABI inspector panel
 
-**Q3+ 2026 (Growth)**  
-- Advanced IDE features 📋  
-- Testing & deployment tools 📋  
-- CLI tools 📋  
-- Mobile support 📋  
+Read/write contract interaction
 
----
+Enhanced debugging output
 
-## 🤝 Get Involved
+Phase 3 – Documentation & Developer Education
 
-We welcome **contributors** to help shape the future of Stacks development!
+Complete documentation site
 
-**How to contribute:**  
-- **💻 Code**: Build features ([Contributing Guide](https://github.com/stackslab/stackslab/blob/main/CONTRIBUTING.md))  
-- **🐛 Issues**: Report bugs or suggest features  
-- **📚 Docs**: Improve documentation  
-- **🎨 Design**: UI/UX improvements  
-- **💬 Community**: Join discussions and help others  
+Step-by-step tutorials
 
-**Getting Started:**  
-1. **Star** our repo ⭐  
-2. **Join** our [waitlist](https://stacks-lab-website.vercel.app/)  
-3. **Check** [good first issues](https://github.com/stackslab/stackslab/labels/good%20first%20issue)  
-4. **Read** our [Contributing Guide](https://github.com/stackslab-org/stackslab-website/blob/main/CONTRIBUTING.md)  
+Onboarding guides
 
----
+Public roadmap
 
-## 📊 Current Status
+All milestones are publicly verifiable via GitHub commits and tagged releases.
 
-- **Repositories**: 1 main platform  
-- **Contributors**: Growing team  
-- **Development Stage**: MVP  
-- **Expected Launch**: Q2 2026  
+🛠 Current Features
 
----
+Browser-based Clarity code editor
 
-## 📞 Contact
+Syntax highlighting
 
-- **GitHub**: [@stackslab](https://github.com/stackslab-org)  
-- **Issues**: [Report here](https://github.com/stackslab-org/stackslab/issues)  
-- **Discussions**: [Join here](https://github.com/orgs/stackslab-org/discussions)  
+Contract compilation
 
----
+Contract deployment
 
-<div align="center">
-**Join us in building better tools for Stacks developers** 🚀  
-*Powered by [Stacks](https://stacks.co) • Open Source • MIT Licensed*
-</div>
+Initial contract interaction support
+
+Live hosted IDE
+
+This project does not custody funds or handle user assets. It operates purely as a development tool.
+
+🏗 Tech Stack
+
+Next.js
+
+React
+
+TypeScript
+
+Tailwind CSS
+
+Stacks blockchain
+
+Clarity smart contracts
+
+Deployment:
+
+Vercel
+
+GitHub
+
+📌 Scope of the Project
+
+LabSTX focuses strictly on:
+
+Core IDE functionality (compile, deploy, interact, debug)
+
+Reliability and stability improvements
+
+Developer documentation and tutorials
+
+Open-source transparency
+
+The project does not currently include:
+
+CLI tools
+
+Mobile applications
+
+Token integrations
+
+Complex plugin systems
+
+Custodial features
+
+Future expansion may be explored after core stabilization and documentation are complete.
+
+🤝 Contributing
+
+Contributions are welcome.
+
+Ways to contribute:
+
+Report bugs
+
+Suggest improvements
+
+Improve documentation
+
+Submit pull requests
+
+Before contributing, please open an issue to discuss proposed changes.
+
+📊 Transparency
+
+Public Repository: https://github.com/LabSTX/LabSTX_IDE
+
+Live Application: https://lab-stx.vercel.app/
+
+All progress is tracked publicly through commits, milestone updates, and documentation releases.
+
+👨🏽‍💻 Maintainer
+
+Founder & Lead Developer:
+Oyewale Prudence
+
+LabSTX has been independently developed and maintained for over six months as part of a long-term commitment to improving Stacks developer tooling.
+
+<div align="center"> Building better infrastructure for Clarity developers on Stacks. </div>
