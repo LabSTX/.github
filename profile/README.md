@@ -1,4 +1,3 @@
-LabSTX
 <div align="center"> <strong>Browser-Based Smart Contract IDE for Stacks</strong><br/> Build, compile, deploy, and interact with Clarity contracts directly from your browser. </div>
 🚀 What is LabSTX?
 
